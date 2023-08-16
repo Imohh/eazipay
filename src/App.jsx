@@ -12,6 +12,7 @@ import apple from './assets/landing-page/download/apple.png'
 import google from './assets/landing-page/download/google.png'
 import kemi from './assets/landing-page/download/kemi.png'
 import hero from './assets/landing-page/hero/hero.png'
+import bg from './assets/landing-page/bg.png'
 
 function App() {
 
@@ -53,19 +54,53 @@ function App() {
         </div>
       </div>
 
+      {/*FOR INDIVIDUALS AND BUSINESSES*/}
+      <div className="xl:mb-0 lg:mb-20 mb-14 pt-[150px] h-[950px]" 
+        style={{backgroundImage: `url(${bg})`,backgroundRepeat: 'no-repeat', backgroundSize: '100%', backgroundPosition: '10% 30%' }}>
+        <div className="text-center mb-10">
+          <h2 className="text-center xl:text-[3.5em] lg:text-[3.5em] md:text-[3.5em] text-4xl text-custom-green-text capitalize mb-5" style={{ fontFamily: "Made Mellow" }}>for individuals and businesses</h2>
+          <p className="text-center xl:text-2xl lg:text-2xl md:text-2xl text-xl text-gray-500">Join 200+ businesses using Eazipay's easy soution</p>
+        </div>
+        <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 xl:gap-0 lg:gap-0 gap-5 md:grid-cols-2 xl:px-40 lg:px-20 px-10">
+          <div className="rounded-[15px] xl:px-20 lg:px-10 px-10 py-10 bg-custom-green-bg text-white">
+            <h3 className="mb-5 text-3xl font-semibold">Tamper-proof Payroll for Life</h3>
+            <p className="mb-2 text-lg">Your staff payroll history is kept in one place forever</p>
+            <p className="mb-2 text-lg">No more excel sheet or manual record</p>
+            <p className="text-lg">Download your payroll history anytime you need it</p>
+          </div>
+          <div className="rounded-[15px] xl:px-20 lg:px-10 px-10 py-10 bg-custom-green-bg text-white xl:-ml-40 lg:-ml-40 shadow-lg">
+            <h3 className="mb-5 text-3xl font-semibold capitalize">all payroll, anytime anywhere</h3>
+            <p className="mb-2 text-lg">Wherever you are Eazipay has got you covered on All your payroll tasks.</p>
+            <p className="mb-2 text-lg">Whether it is Taxes, Pension insurance, HIXMs, trustfunds, Eazipay handle all your compliance in one place and easily, in seconds!</p>
+          </div>
+          <div class="rounded-[15px] xl:px-20 lg:px-10 px-10 py-10 bg-custom-green-bg text-white xl:-ml-40 lg:-ml-40 shadow-lg">
+            <h3 className="mb-5 text-3xl font-semibold capitalize">payroll in seconds</h3>
+            <p className="mb-2 text-lg">never again will you spend more than 2 minutes on payroll</p>
+            <p className="mb-2 text-lg">just click on your staff and bulk-pay them at once</p>
+            <p className="mb-2 text-lg">Payment is done permanentely</p>
+          </div>
+        </div>
+        <div className="flex justify-center py-14 px-5">
+          <p className="text-xl xl:w-[40%] lg:w-[40%] text-center">We are happy to answer your queries. Please reach us at  
+            <span className="text-custom-red-text"> hello@myeazipay.com</span> and expect our response shortle after
+          </p>
+        </div>
+      </div>
+
       {/*how eazi pay works*/}
-      <div className="xl:px-10 px-10 py-10 xl:py-40 lg:pb-40 md:pb-20 pb-20">
+      <div className="xl:px-10 px-10 py-10 xl:py-40 lg:pb-40 md:pb-20 pb-20 mt-40 xl:mt-0 lg:mt-0">
         <div className="xl:mb-20 lg: mb-[120px]">
-          <h2 className="text-center xl:text-[3.5em] lg:text-[3.5em] md:text-[3.5em] text-4xl text-custom-green-text capitalize" style={{ fontFamily: "Made Mellow" }}>how eazipay works</h2>
+          <h2 className="text-center xl:text-[3.5em] lg:text-[3.5em] md:text-[3.5em] text-4xl text-custom-green-text capitalize" style={{ fontFamily: "Made Mellow" }}>
+            how eazipay works</h2>
           <p className="text-center xl:text-2xl lg:text-2xl md:text-2xl text-xl text-gray-500">Get started in 3 simple steps.</p>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 xl:px-10 lg:gap-10">
           <div className="relative">
             <div className="md:flex md:justify-center flex justify-center xl:mb-0 lg:mb-0 md:mb-24 mb-[250px]">
-              <img src={BG} alt="" className="w-[100%] xl:w-[70%] lg:w-[90%] md:w-[65%]"/>
+              <img src={BG} alt="" className="w-[90%] xl:w-[70%] lg:w-[90%] md:w-[65%]"/>
               <img src={phone} alt="" 
-                className="absolute -top-20 xl:-top-10 lg:-top-[80px] 
-                  md:-top-[50px] xl:left-[120px] lg:left-[95px] md:left-[50] w-[70%] xl:w-[70%] lg:w-[60%] md:w-[40%]" />
+                className="absolute -top-10 xl:-top-10 lg:-top-[80px] 
+                  md:-top-[50px] xl:left-[30%] lg:left-[95px] md:left-[50] w-[60%] xl:w-[40%] lg:w-[60%] md:w-[40%]" />
             </div>
           </div>
           <div className="md:mx-auto mx-auto xl:mx-0 lg:mx-0">

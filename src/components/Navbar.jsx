@@ -32,7 +32,7 @@ const Navbar  = () => {
 	}, []);
 	return (
 		<>
-			<nav className={`fixed lg:px-10 px-5 py-2 h-[100px] w-full z-30 xl:flex lg:flex 
+			<nav className={`fixed lg:px-10 px-5 py-2 xl:h-[100px] lg:h-[100px] h-[70px] w-full z-30 xl:flex lg:flex 
 				xl:justify-center lg:justify-center transition-colors duration-300 ${scrollColor} 
 				${scrollShadow ? 'shadow-md' : ''}`} >
 				<div className="my-auto xl:mr-40 lg:mr-20 xl:w-[10%] lg:w-[10%] w-[50%] float-left">
