@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Made Mellow';
+  src: url('./assets/landing-page/font/MADEMellowPERSONALUSE.otf');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
