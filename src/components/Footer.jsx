@@ -17,7 +17,7 @@ const Footer = () => {
 					<div className="flex justify-center xl:justify-start lg:justify-start md:justify-start">
 						<img src={logo} alt="" />
 					</div>
-					<p className="pr-10 my-10 text-center">Copyright c 2023 Eazipay. All rights reserved</p>
+					<p className="pr-10 my-10 xl:text-left lg:text-left md:text-left text-center">Copyright c 2023 Eazipay. All rights reserved</p>
 					<div className="flex xl:gap-8 lg:gap-4 justify-center xl:justify-start lg:justify-start md:justify-start">
 						<p className="bg-gray-200 p-1 rounded-[50%] mr-4 xl:mr-0 lg:mr-0 md:mr-0"><img src={instagram} alt="instagram" /></p>
 						<p className="bg-gray-200 p-1 rounded-[50%] mr-4 xl:mr-0 lg:mr-0 md:mr-0"><img src={twitter} alt="twitter" /></p>

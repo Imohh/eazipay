@@ -23,7 +23,7 @@ function App() {
       {/*HERO SECTION*/}
       <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 py-40 xl:pl-40 lg:pl-20">
         <div className="order-2 xl:order-1 lg:order-1 md:order-2 px-10 xl:px-0 lg:px-0">
-          <h1 className="xl:text-[3.5em] lg:text-[3.5em] md:text-[3.5em] text-4xl xl:pr-[300px] leading-none text-custom-black-text mb-7" style={{ fontFamily: "Made Mellow" }}>
+          <h1 className="xl:text-[3.5em] lg:text-[3.5em] md:text-[3.5em] text-4xl xl:pr-[200px] leading-none text-custom-black-text mb-7" style={{ fontFamily: "Made Mellow" }}>
             Run your <span className="text-custom-green-text">payroll</span> <span className="text-[#B4A572]">easily</span> in <span className="text-custom-red-text">seconds</span></h1>
           <p className="mb-7 text-lg">We've built an all-inclusive simple solution for individual and businesses to manage staff, 
           pay salaries, bills, and relevant taxes all at once.</p>
@@ -61,23 +61,23 @@ function App() {
           <h2 className="text-center xl:text-[3.5em] lg:text-[3.5em] md:text-[3.5em] text-4xl text-custom-green-text capitalize mb-5" style={{ fontFamily: "Made Mellow" }}>for individuals and businesses</h2>
           <p className="text-center xl:text-2xl lg:text-2xl md:text-2xl text-xl text-gray-500">Join 200+ businesses using Eazipay's easy soution</p>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 xl:gap-0 lg:gap-0 gap-5 md:grid-cols-2 xl:px-40 lg:px-20 px-10">
-          <div className="rounded-[15px] xl:px-20 lg:px-10 px-10 py-10 bg-custom-green-bg text-white">
-            <h3 className="mb-5 text-3xl font-semibold">Tamper-proof Payroll for Life</h3>
-            <p className="mb-2 text-lg">Your staff payroll history is kept in one place forever</p>
-            <p className="mb-2 text-lg">No more excel sheet or manual record</p>
-            <p className="text-lg">Download your payroll history anytime you need it</p>
+        <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 xl:gap-0 lg:gap-0 gap-5 md:grid-cols-2 xl:px-20 lg:px-20 px-10">
+          <div className="rounded-[15px] xl:px-10 lg:px-10 px-10 py-10 bg-custom-green-bg text-white">
+            <h3 className="mb-5 text-2xl font-semibold">Tamper-proof Payroll for Life</h3>
+            <p className="mb-2 text-md">Your staff payroll history is kept in one place forever</p>
+            <p className="mb-2 text-md">No more excel sheet or manual record</p>
+            <p className="text-md">Download your payroll history anytime you need it</p>
           </div>
-          <div className="rounded-[15px] xl:px-20 lg:px-10 px-10 py-10 bg-custom-green-bg text-white xl:-ml-40 lg:-ml-40 shadow-lg">
-            <h3 className="mb-5 text-3xl font-semibold capitalize">all payroll, anytime anywhere</h3>
-            <p className="mb-2 text-lg">Wherever you are Eazipay has got you covered on All your payroll tasks.</p>
-            <p className="mb-2 text-lg">Whether it is Taxes, Pension insurance, HIXMs, trustfunds, Eazipay handle all your compliance in one place and easily, in seconds!</p>
+          <div className="rounded-[15px] xl:px-10 lg:px-10 px-10 py-10 bg-custom-green-bg text-white xl:-ml-40 lg:-ml-40 shadow-xl">
+            <h3 className="mb-5 text-2xl font-semibold capitalize">all payroll, anytime anywhere</h3>
+            <p className="mb-2 text-md">Wherever you are Eazipay has got you covered on All your payroll tasks.</p>
+            <p className="mb-2 text-md">Whether it is Taxes, Pension insurance, HIXMs, trustfunds, Eazipay handle all your compliance in one place and easily, in seconds!</p>
           </div>
-          <div class="rounded-[15px] xl:px-20 lg:px-10 px-10 py-10 bg-custom-green-bg text-white xl:-ml-40 lg:-ml-40 shadow-lg">
-            <h3 className="mb-5 text-3xl font-semibold capitalize">payroll in seconds</h3>
-            <p className="mb-2 text-lg">never again will you spend more than 2 minutes on payroll</p>
-            <p className="mb-2 text-lg">just click on your staff and bulk-pay them at once</p>
-            <p className="mb-2 text-lg">Payment is done permanentely</p>
+          <div class="rounded-[15px] xl:px-10 lg:px-10 px-10 py-10 bg-custom-green-bg text-white xl:-ml-40 lg:-ml-40 shadow-xl">
+            <h3 className="mb-5 text-2xl font-semibold capitalize">payroll in seconds</h3>
+            <p className="mb-2 text-md">never again will you spend more than 2 minutes on payroll</p>
+            <p className="mb-2 text-md">just click on your staff and bulk-pay them at once</p>
+            <p className="mb-2 text-md">Payment is done permanentely</p>
           </div>
         </div>
         <div className="flex justify-center py-14 px-5">
@@ -136,8 +136,9 @@ function App() {
             style={{ fontFamily: "Made Mellow" }}>
             free forever for <span className="text-custom-red-text">your salary payment</span>
           </h1>
-          <p className="font-semibold text-center xl:text-left lg:text-lef">Subscribe to the Eazilife today</p>
-          <div className="xl:flex lg:flex md:flex sm:flex grid grid-cols-1 px-10 xl:gap-8 lg:gap-4 mt-4 justify-center xl:justify-start lg:justify-start">
+          <p className="font-semibold text-center xl:text-left lg:text-left">Subscribe to the Eazilife today</p>
+          <div className="xl:flex lg:flex md:flex sm:flex grid grid-cols-1 px-10 xl:gap-8 lg:gap-4 mt-4 
+            justify-center xl:justify-start lg:justify-start">
             <div className="bg-white xl:px-5 lg:px-2 lg:w-[100%] py-2 h-16 rounded-[10px] shadow-md flex mb-2 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0">
               <img src={apple} alt="" className=" h-[100%] mr-2" />
               <div>

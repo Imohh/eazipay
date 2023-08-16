@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../assets/landing-page/footer/logo.png'
+import logo from '../assets/landing-page/nav-logo.png'
 
 const Navbar  = () => {
 	const [show, setShow] = useState(false)
